@@ -4,11 +4,6 @@
   margin-bottom: 100px;
   padding-left: 20px;
   padding-right: 20px;
-
-  /* margin-left: auto;
-     margin-right auto;
-     Is a trick for centering an element horizontally
-     without needing a container. */
   margin-left: auto;
   margin-right: auto;
 }
@@ -167,11 +162,6 @@
   }
 
   .product-actions {
-    /* grid-column: 2 means this element will be placed
-       in column 2 in the grid. (Normally, the column that
-       an element is placed in is determined by the order
-       of the elements in the HTML. grid-column overrides
-       this default ordering). */
     grid-column: 2;
     margin-bottom: 30px;
   }
@@ -206,9 +196,6 @@
   }
 
   .product-actions {
-    /* grid-column: auto; undos grid-column: 2; from above.
-       This element will now be placed in its normal column
-       in the grid. */
     grid-column: auto;
     margin-bottom: 70px;
   }
