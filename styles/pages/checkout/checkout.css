@@ -5,11 +5,6 @@
 
   margin-top: 140px;
   margin-bottom: 100px;
-
-  /* margin-left: auto;
-     margin-right auto;
-     Is a trick for centering an element horizontally
-     without needing a container. */
   margin-left: auto;
   margin-right: auto;
 }
@@ -22,13 +17,8 @@
 
 .checkout-grid {
   display: grid;
-  /* Here, 1fr means the first column will take
-     up the remaining space in the grid. */
   grid-template-columns: 1fr 350px;
   column-gap: 12px;
-
-  /* Use align-items: start; to prevent the elements
-     in the grid from stretching vertically. */
   align-items: start;
 }
 
@@ -78,9 +68,6 @@
 
 .cart-item-details-grid {
   display: grid;
-  /* 100px 1fr 1fr; means the 2nd and 3rd column will
-     take up half the remaining space in the grid
-     (they will divide up the remaining space evenly). */
   grid-template-columns: 100px 1fr 1fr;
   column-gap: 25px;
 }
@@ -95,11 +82,6 @@
 .product-image {
   max-width: 100%;
   max-height: 120px;
-
-  /* margin-left: auto;
-     margin-right auto;
-     Is a trick for centering an element horizontally
-     without needing a container. */
   margin-left: auto;
   margin-right: auto;
 }
@@ -121,15 +103,6 @@
 
 @media (max-width: 1000px) {
   .delivery-options {
-    /* grid-column: 1 means this element will be placed
-       in column 1 in the grid. (Normally, the column that
-       an element is placed in is determined by the order
-       of the elements in the HTML. grid-column overrides
-       this default ordering).
-       
-       / span 2 means this element will take up 2 columns
-       in the grid (Normally, each element takes up 1
-       column in the grid). */
     grid-column: 1 / span 2;
   }
 }
@@ -170,9 +143,6 @@
 
 .payment-summary-row {
   display: grid;
-  /* 1fr auto; means the width of the 2nd column will be
-     determined by the elements inside the column (auto).
-     The 1st column will take up the remaining space. */
   grid-template-columns: 1fr auto;
 
   font-size: 15px;
